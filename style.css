@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    background: #025DA8;
+}
+
+*{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #363636;
+}
+
+#searchHead{
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+#testInput{
+    width: 80%;
+    -webkit-appearance: none;
+    border-radius: 20px;
+    font-size: 42px;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #3C5F6F 5px;
+    box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, .16);
+}
+
+#searchResults{
+    width: 80%;
+    padding: 20px;
+    display: block;
+    margin: auto;
+}
+
+#tableOfResults{
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.listItem{
+    width: 95%;
+    height: 90px;
+    font-size: 42px;
+    display: block;
+    border: solid;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-bottom: #679932 5px solid;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, .16);
+    transition: height 0.5s;
+    user-select: none;
+    cursor: pointer;
+    background: #ffffff;
+}
+
+.listItemSelected{
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#buttonContainer{
+    width: 80%;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+#optionContainer{
+    width: 80%;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+#searchByNumb{
+    width: 90%;
+    display: block;
+}
+
+#searchByName{
+    width: 90%;
+    margin-left: auto;
+    display: block;
+}
+
+#toggleDesc{
+    width: 90%;
+    display: block;
+}
+
+#clearInput{
+    width: 90%;
+    margin-left: auto;
+    display: block;
+}
+
+.testButton{
+    border: 0;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #707070;
+    font-family: system-ui, sans-serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    height: 100%;
+    box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, .16);
+    border-bottom: 5px solid #679932;
+    opacity: 0.3;
+}
+
+.testButtonActive{
+    background: #679932;
+    color: #ffffff;
+    border-bottom: 5px solid #3C5F6F;
+    opacity: 1;
+}
+
+#buttonLeft{
+    width: 50%;
+    display: inline-block;
+    height: 100%;
+}
+
+#buttonRight{
+    width: 49%;
+    display: inline-block;
+    height: 100%;
+}
+
+#optionLeft{
+    width: 50%;
+    display: inline-block;
+    height: 100%;
+}
+
+#optionRight{
+    width: 49%;
+    display: inline-block;
+    height: 100%;
+}
+
+.optionButton{
+    border: 0;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #707070;
+    font-family: system-ui, sans-serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    height: 100%;
+    box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, .16);
+    border-bottom: 5px solid #679932;
+}

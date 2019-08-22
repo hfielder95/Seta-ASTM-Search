@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ASTM-D Search</title>
+    <script src="./fdb-all.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="manifest" href="manifest.json">
+  </head>
+  <body>
+    
+    
+    <div id="searchHead">
+        <input id="testInput" data-mode="numb">
+    </div>
+
+    <div id="buttonContainer">
+      <div id="buttonLeft">
+          <button id="searchByNumb" class="testButton testButtonActive">Method Number</button>
+      </div>
+      <div id="buttonRight">
+          <button id="searchByName" class="testButton">Method Name</button>
+      </div>
+    </div>
+
+    <div id="optionContainer">
+        <div id="optionLeft">
+            <button id="toggleDesc" class="optionButton">Toggle Descriptions</button>
+        </div>
+        <div id="optionRight">
+            <button id="clearInput" class="optionButton">Clear</button>
+        </div>
+      </div>
+    
+    <div id="searchResults">
+        <ul id="tableOfResults">
+            
+        </ul>
+    </div>
+
+        
+
+    <script src="./ASTM-D.json" type="text/javascript"></script>
+    <script src="./site.js" type="text/javascript"></script>
+  </body>
+</html>

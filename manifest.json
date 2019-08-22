@@ -1,0 +1,16 @@
+{
+    "short_name": "ASTM-D",
+    "name": "Search ASTM-D Methods",
+    "icons": [
+      {
+        "src": "logo_350.png",
+        "type": "image/png",
+        "sizes": "350x350"
+      }
+    ],
+    "start_url": "/harry/PWA-D/",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/harry/PWA-D/",
+    "theme_color": "#3367D6"
+  }
