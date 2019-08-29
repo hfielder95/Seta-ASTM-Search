@@ -4,7 +4,7 @@ var db = fdb.db("ASTM_D");
 
 var itemCollection = db.collection("item");
 
-var requestURL = "https://testing.isitetv.com/harry/PWA-D/ASTM-D.json";
+var requestURL = "https://github.com/hfielder95/Seta-ASTM-Search/blob/master/ASTM-D.json";
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
